@@ -19,7 +19,7 @@ tidy_data.txt -> aggregated data by activity and subject
 run_analysis.R -> R script used to clean and aggreagate data, when ran will output the tidy_data.txt 
 CodeBook.md -> Markdown that will list all the variables and explain the meaning of them   
 
-##R Script 
+## R Script 
 The script will read in files from the UCI HAR Dataset folder.  
 We combine for test/train the the y variables and the subject labels.   
 After that we join the two datasets.    
@@ -27,5 +27,5 @@ We then only select measurments that contain mean or standard deviation.
 We join on y labels with the activity labels.   
 After that, we group by activity and subject id and find the mean for each variable.   
 
-##Conclusion
+## Conclusion
 The result is a cleaned dataset that is labeled as "data" in the Rscript and an aggregated tidy dataset labeled "tidy_data" in the Rscript. 
