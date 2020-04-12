@@ -91,11 +91,11 @@ fBodyBodyGyroJerkMagstd
 fBodyBodyGyroJerkMagmeanFreq    
 
 
-##Labels 
+## Labels 
    
 Subject: Number between 1-30 to indicator subject identifier   
 Activity: The activity that participant did   
-##Activity Labels 
+## Activity Labels 
   
 1 WALKING: Subject was walking   
 2 WALKING_UPSTAIRS: Subject was walking upstairs   
