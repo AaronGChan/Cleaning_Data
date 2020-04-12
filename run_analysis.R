@@ -38,10 +38,7 @@ reformed <- lapply(colnames(data), function(y) gsub("\\(\\)|-|_","",y))
 colnames(data) = reformed
 
 tidy_data <- aggregate(data[,3:81], data[,1:2], mean)
-t <- colnames(tidy_data)
-for(i in t){
-  print(i)
-}
-  
-#setwd('..')
-#write.table(tidy_data, "tidy_data.txt", row.names = F)
+
+setwd('..')
+write.table(tidy_data, "tidy_data.txt", row.names = F)
+tidy_data
